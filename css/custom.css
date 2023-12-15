@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    max-width: 1180px;
+    width: 100%;
+}
+img
+{
+    width: 100%;
+}
+/* Navigation Section */
+.logo-brang
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.logo-brang img
+{
+    width: 281px;
+}
+/* Hero Section */
+.hero-contentmain
+{
+    max-width: 70%;
+    width: 100%;
+    margin: auto;
+    padding: 60px 0;
+}
+.hero-imgbar
+{
+    background-image: url('../images/airplane1222.jpg');
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+.hero-pro img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 4px solid #2b56b4;
+}
+.hero-pro a
+{
+    margin-left: 30px;
+    border: 3px solid #2b56b4;
+    border-radius: 50px;
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 460px;
+    width: 100%;
+    padding: 8px 20px;
+}
+.hero-pro a i
+{
+    color: #00bd1a;
+}
+.hero-pro a i span
+{
+    color: #1a202c;
+    margin-left: 10px;
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hero-text h1
+{
+    color: #003e80;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.hero-text h4
+{
+    color: #2d3748;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.hero-text h6
+{
+    color: #2d3748;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.divider {
+    height: 10px;
+    width: 100%;
+    background: #ee7403;
+    margin-top: -10px;
+}
+.hero-text-list i
+{
+    background-color: #ee7403;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.hero-text-list b
+{
+    font-family: "Montserrat",Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10px;
+    display: inline-flex;
+}
+.hero-texy-list-items
+{
+    margin-right: 10px;
+}
+/* Booking Card Section */
+.booking-card i
+{
+    font-size: 48px;
+    color: #ee7403;
+}
+.booking-card-title
+{
+    color: #003e80;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 1.1em;
+}
+.booking-card-text
+{
+    color: #000;
+    font-family: "Roboto",Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+/* Service Section */
+.servicearea
+{
+    background-color: #003e80;
+    padding: 80px 0px;
+}
+.servicearea .card
+{
+    border-radius: 0;
+    text-align: center;
+}
+.servicearea .card img
+{
+    border-radius: 0;
+}
+.card-title
+{
+    color: #003e80;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.card-text
+{
+    color: #000;
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.service-details p
+{
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.service-text-list i
+{
+    background-color: #ee7403;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.service-text-list b
+{
+    font-family: "Montserrat",Sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 10px;
+    display: inline-flex;
+    color: #FFFFFF;
+}
+.service-text-list-items
+{
+    margin-right: 10px;
+}
+.service-button a
+{
+    border: 1px solid #999;
+    max-width: 320px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #ee7403;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 5px 5px rgba(117.6234375,163.31373172388655,150.2076460597826,.87); */
+    box-shadow: 0px 0px 5px 5px rgba(118, 163, 150, 0.692);
+    padding: 5px 20px;
+}
+.service-button a:hover
+{
+    color: #FFFFFF;
+    background-color: #ee7403;
+}
+.service-button i
+{
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-size: 18px;
+}
+/* Contact Section */
+.contact-details h1
+{
+    color: #003e80;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.contact-items h5
+{
+    color: var(--e-global-color-kadence3);
+    font-family: "Montserrat",Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+.contact-items p
+{
+    color: #000;
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+/* Footer Section */
+.footer-content img
+{
+    width: 281px;
+}
+.footer-content p
+{
+    color: #000;
+    font-family: "Roboto",Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+/* copyright Section */
+.copyrightarea
+{
+    color: #929292;
+    background-color: #241e1e;
+}
+/* Responsive css */
+@media (max-width: 767px) {
+    .hero-contentmain
+    {
+        max-width: 90%;
+    }
+    .hero-text h1
+    {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .hero-text h4
+    {
+        font-size: 18px;
+    }
+    .hero-text h6
+    {
+        font-size: 12px;
+    }
+    .booking-card .card-body
+    {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .service-details p
+    {
+        text-align: center;
+    }
+    }
